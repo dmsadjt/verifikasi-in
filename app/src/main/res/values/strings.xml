@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Verifikasi.in</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="masuk">Masuk</string>
+    <string name="nik">NIK</string>
+    <string name="password">Password</string>
+    <string name="pertanyaan_akun">Tidak memiliki akun?</string>
+    <string name="daftar">Daftar</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="email">Email</string>
+    <string name="pertanyaan_akun_register">Sudah memiliki akun?</string>
+    <string name="konfirmasi_identitas_anda">Konfirmasi identitas anda!</string>
+    <string name="ubah_profil">Ubah profil</string>
+    <string name="verifikasi_wajah">Verifikasi wajah</string>
+    <string name="deskripsi_wajah">Lakukan verifikasi wajah untuk kemudahan masuk layanan</string>
+    <string name="layanan_pemerintah">Layanan pemerintah</string>
+    <string name="verifikasi_wajah_title">Verifikasi wajah</string>
 </resources>

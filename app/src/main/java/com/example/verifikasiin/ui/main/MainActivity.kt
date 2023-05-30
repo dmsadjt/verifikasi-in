@@ -1,4 +1,4 @@
-package com.example.verifikasiin.ui
+package com.example.verifikasiin.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
