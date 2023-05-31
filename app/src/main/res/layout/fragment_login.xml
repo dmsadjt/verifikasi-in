@@ -10,10 +10,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="248dp"
+        android:layout_marginTop="108dp"
         android:textStyle="bold"
         android:text="@string/app_name"
-        android:textSize="24sp" />
+        android:textSize="20sp" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -58,8 +58,8 @@
 
     <Button
         android:id="@+id/btn_masuk"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
         android:layout_marginTop="16dp"
         android:layout_gravity="center"
         android:text="@string/masuk"/>
@@ -75,11 +75,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="11"
+            android:textStyle="bold"
             android:text="@string/pertanyaan_akun"/>
 
         <Button
             android:id="@+id/btn_daftar"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/daftar"/>

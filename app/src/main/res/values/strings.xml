@@ -16,4 +16,5 @@
     <string name="deskripsi_wajah">Lakukan verifikasi wajah untuk kemudahan masuk layanan</string>
     <string name="layanan_pemerintah">Layanan pemerintah</string>
     <string name="verifikasi_wajah_title">Verifikasi wajah</string>
+    <string name="log_out">Log out</string>
 </resources>

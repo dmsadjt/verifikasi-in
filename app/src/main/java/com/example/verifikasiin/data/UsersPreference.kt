@@ -29,6 +29,12 @@ class UsersPreference(context : Context) {
         return model
     }
 
+    fun clearUser() {
+        val editor = preference.edit()
+        editor.clear()
+        editor.commit()
+    }
+
 
     companion object {
         private const val PREFS_NAME = "user_pref"

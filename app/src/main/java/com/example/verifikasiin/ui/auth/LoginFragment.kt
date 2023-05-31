@@ -43,8 +43,6 @@ class LoginFragment : Fragment(), View.OnClickListener, LoginViewModel.LoginCall
         loginViewModel.loginCallback = this
     }
 
-
-
     private fun checkAuth() {
         val userPreferences = UsersPreference(requireContext())
         user = userPreferences.getUser()
@@ -57,7 +55,13 @@ class LoginFragment : Fragment(), View.OnClickListener, LoginViewModel.LoginCall
                 loginViewModel.login(loginBinding.edtNik.toString(), loginBinding.edtPassword.toString())
             }
             R.id.btn_daftar -> {
-
+                val registerFragment = RegisterFragment()
+                val fragmentManager = parentFragmentManager
+                fragmentManager.beginTransaction().apply {
+                    replace(R.id.frame_container, registerFragment, RegisterFragment::class.java.simpleName)
+                    addToBackStack(null)
+                    commit()
+                }
             }
         }
     }
