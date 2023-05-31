@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Regular Style -->
+    <font
+        app:fontStyle="normal"
+        app:fontWeight="400"
+        app:font="@font/poppinsregular" />
+
+    <!-- Bold Style -->
+    <font
+        app:fontStyle="normal"
+        app:fontWeight="700"
+        app:font="@font/poppinsbold" />
+
+    <!-- Italic Style -->
+    <font
+        app:fontStyle="italic"
+        app:fontWeight="400"
+        app:font="@font/poppinsitalic" />
+
+</font-family>
